@@ -1,7 +1,14 @@
+
 function call(){
-var x=parseInt(document.getElementById("x").value);
-var y=parseInt(document.getElementById("y").value);
-var z=x+y;
+   var xVal=parseInt(x.value);
+   var yVal=parseInt(y.value);
+   document.getElementById("z").textContent=xVal+yVal
+}
+x.onkeyup=y.onkeyup=call
+
+
+
+/*
    if(isNaN(x)||isNaN(y)){
           alert("please enter a number");
      }
@@ -14,3 +21,4 @@ var z=x+y;
        }
 
 }
+*/
