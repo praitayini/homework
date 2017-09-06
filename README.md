@@ -1,3 +1,3 @@
 # homework
 
-Live at https://jonasalmeida.github.io/homework/
+live at https://praitayini.github.io/homework
